@@ -1,0 +1,11 @@
+{
+  "name": "energy-compare",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": { "concurrently": "^8.2.2" }
+}
