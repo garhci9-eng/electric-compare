@@ -1,2 +1,0 @@
-# electric-compare
-electric compare
